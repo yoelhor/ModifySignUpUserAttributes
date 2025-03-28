@@ -1,0 +1,62 @@
+{
+    "type": "microsoft.graph.authenticationEvent.attributeCollectionSubmit",
+    "source": "/tenants/aaaabbbb-0000-cccc-1111-dddd2222eeee/applications/00000003-0000-0000-c000-000000000000",
+    "data": {
+        "@odata.type": "microsoft.graph.onAttributeCollectionSubmitCalloutData",
+        "userSignUpInfo": {
+            "attributes": {
+                "displayName": {
+                    "value": "Emily H.",
+                    "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+                    "attributeType": "builtIn"
+                },
+                "givenName": {
+                    "value": "Emily",
+                    "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+                    "attributeType": "builtIn"
+                },
+                "surname": {
+                    "value": "H.",
+                    "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+                    "attributeType": "builtIn"
+                },
+                "city": {
+                    "value": "Munich",
+                    "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+                    "attributeType": "builtIn"
+                }
+            },
+            "identities": [
+                {
+                    "signInType": "federated",
+                    "issuer": "https://my-dip.com<aaaabbbb-0000-cccc-1111-dddd2222eeee>",
+                    "issuerAssignedId": "23456789"
+                }
+            ]
+        },
+        "tenantId": "aaaabbbb-0000-cccc-1111-dddd2222eeee",
+        "authenticationEventListenerId": "22222222-0000-0000-0000-000000000000",
+        "customAuthenticationExtensionId": "33333333-0000-0000-0000-000000000000",
+        "authenticationContext": {
+            "correlationId": "<GUID>",
+            "client": {
+                "ip": "127.0.0.1",
+                "locale": "en-us",
+                "market": "en-us"
+            },
+            "protocol": "OAUTH2.0",
+            "clientServicePrincipal": {
+                "id": "<GUID>",
+                "appId": "00001111-aaaa-2222-bbbb-3333cccc4444",
+                "appDisplayName": "jwt.ms",
+                "displayName": "jwt.ms"
+            },
+            "resourceServicePrincipal": {
+                "id": "<GUID>",
+                "appId": "00000003-0000-0000-c000-000000000000",
+                "appDisplayName": "Microsoft Graph",
+                "displayName": "Microsoft Graph"
+            }
+        }
+    }
+}

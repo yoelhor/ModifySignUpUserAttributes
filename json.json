@@ -1,0 +1,18 @@
+{
+    "data": {
+        "userSignUpInfo": {
+            "attributes": {
+                "givenName": {
+                    "value": "Emily",
+                    "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+                    "attributeType": "builtIn"
+                },
+                "surname": {
+                    "value": "H.",
+                    "@odata.type": "microsoft.graph.stringDirectoryAttributeValue",
+                    "attributeType": "builtIn"
+                }
+            }
+        }
+    }
+}
